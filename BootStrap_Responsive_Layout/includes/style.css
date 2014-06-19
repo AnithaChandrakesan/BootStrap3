@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+html {
+    background-color: #474747;
+}
+.top {
+    background-color: #474747;
+}
+.top .navbar-brand {
+    height: 70px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #CCC;
+    color: #474747;
+    text-decoration: none;
+}
+.top .container {
+    padding: 0;
+}
+.banner {
+    background-color: #373737;
+}
+.banner .container {
+    background-color: #009b9b;
+    min-height: 200px;
+    padding: 40px 30px 30px 40px;
+}
+.banner .container p {
+    font-size: 22px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.middle {
+    background-color: #CCC;
+}
+.middle .container {
+    background-color: #FFF;
+    min-height: 100px;
+    padding-bottom: 20px;
+}
+.content p {
+    line-height: 30px;
+    font-size: 16px;
+}
+.bs-example{
+	margin: 20px;
+	}
