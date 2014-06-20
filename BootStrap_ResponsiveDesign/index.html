@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Webpage Design </title>
+    <link href="3p/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<script src="3p/jquery/jquery-2.1.0.min.js"></script>
+<script src="3p/bootstrap/js/bootstrap.min.js"></script>
+
+    <header class="navbar navbar-default navbar-static-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand"><b>BootStrap</b></a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="#">Getting Started</a>
+        </li>
+        <li>
+          <a href="#">CSS</a>
+        </li>
+        <li>
+          <a href="#">Components</a>
+        </li>
+        <li>
+          <a href="#">JavaScript</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  
+ <div class="banner">
+<div class="container">
+	<div class="tabbable tabs-left">
+        		<ul class="nav nav-tabs">
+        			  <li class="active"><a href="#lA" data-toggle="tab"><font color="black">WHY BOOTSTRAP ?</font></a></li>
+         			 <li><a href="#lB" data-toggle="tab"><font color="black">EXAMPLES</font></a></li>
+         			 <li><a href="#lC" data-toggle="tab"><font color="black">DOWNLOAD</font></a></li>
+        		</ul>
+       		 <div class="tab-content">
+         			 <div class="tab-pane active" id="lA">
+         			   <p><br><br>
+				Twitter Bootstrap is a front end framework to develop web apps and sites fast. 
+				In modern web development, there are several components which are required in almost all web projects. <br>
+				Bootstrap provides you with all those basic modules - Grid, Typography, Tables, Forms, Buttons and Responsiveness. <br>
+				Besides, there are plethora of other useful front end components like Dropdowns, Navigation, Modals, Typehead, Pagination, Carousal, Breadcrumb, Tab, Thumbnails, Headers etc. 
+				With these you can make a web project up and running quickly and easily.<br>
+				Bootstrap has a few easy ways to quickly get started, each one appealing to a different skill level and use case. Read through to see what suits your particular needs.
+				<br>
+				Bootstrap is downloadable in two forms, within which you'll find the following directories and files, logically grouping common resources and providing both compiled and minified variations.<br>
+				With Bootstrap, the first thing you do is cash in on a lot of time. The Bootstrap libraries offer readymade pieces of code that can pump life into a website. A web developer doesnt have to spend time laboriously working out and writing code, but simply find the right piece and fit it into the structure they are working on.
+				 In addition to this, a lot of the styling and design aspects are already taken care of, since the CSS is built with LESS.<br>
+				 A great aspect of Bootstrap is that you can make it your own. You can sit down and rummage through the whole framework and keep what you need and ditch what you dont. The whole point of Bootstrap is that it lets you factor in your own needs and tailor your development project accordingly. 
+				This is the main reason many developers feel some tools are completely useless on the Bootstrap while others revere the same.<br>
+				One of the main reasons this toolset was developed was because Twitter was seeing big inconsistencies between developers working on their projects. This caused some issues both on the development front and the end-user front. Since it works with a central set of development code, 
+				Bootstrap’s results are uniform across platforms. You’ll see the same thing on Internet Explorer, Chrome and Firefox.
+				<br>
+				If you are working on a site which is already live, but still trying to iron out the creases then Bootstrap can help. For instance, if you use table styling, all you need to do is take the styles you need and copy them to the CSS file you are working with. Bootstrap will immediately kick in with its own style and all you need to do from there is link up the file you are working with or hotlink to Twitter (more or less).
+			                Integration is simple, fast and easy to accomplish and once you are done you can play with your design to your hearts content.<br>
+				Bootstrap is responsive. If you shift from a laptop to an iPad and from an iPad to a Mac you wont have to fret over your work. Bootstrap adapts to the change in platforms with super speed and efficiency.
+			</p>
+		 	</div><!--tab A close-->
+		
+         			 <div class="tab-pane" id="lB">
+           			
+
+			<div class="container-fluid">
+     				 <div class="row row-offcanvas row-offcanvas-left">
+        
+      				 <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+         					 <div data-spy="affix" data-offset-top="45" data-offset-bottom="90"><br>
+						
+          						  <ul class="nav" id="sidebar-nav">
+          							 <li><a href="#sec0"><font color="black">Glyphicons</font></a></li>	
+							 <li><a href="#sec1"><font color="black">Popovers</font></a></li>
+           							 <li><a href="#sec2"><font color="black">Button groups</font></a></li>
+             						 	 <li><a href="#sec3"><font color="black">Navs</font></a></li>
+             							 <li><a href="#sec4"><font color="black">Alerts</font></a></li>
+							 <li><a href="#sec5"><font color="black">List group</font></a></li>
+							 <li><a href="#sec6"><font color="black">Panels</font></a></li>
+							 <li><a href="#sec7"><font color="black">Progress bars</font></a></li>
+							 <li><a href="#sec8"><font color="black">ScrollSpy</font></a></li>
+							 <li><a href="#sec9"><font color="black">Modals</font></a></li>
+         						   </ul>
+       					    </div>
+      				  </div><!--/sidebar-->
+  	
+     			<!-- main area -->
+       			<div class="col-xs-12 col-sm-9" data-spy="scroll" data-target="#sidebar-nav">
+          				
+				<h1 id="sec0">Glyphicons</h1>
+				
+				<!-- Button trigger modal -->
+				<div align= right>
+				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+					  MORE
+				</button></div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ 				 	<div class="modal-dialog">
+  				  		<div class="modal-content">
+     				 			<div class="modal-header">
+       								 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        								<h4 class="modal-title" id="myModalLabel">MORE INFO</h4>
+     							 </div>
+    							  <div class="modal-body">
+       							<p>	 GLYPHICONS is a library of precisely prepared monochromatic icons and symbols, 
+						created with an emphasis on simplicity and easy orientation.<br>
+				Picture signs (glyphs) have been used in human communication since time immemorial. 
+				Owing to that each picture or sign represents a word, these symbols or pictograms form a universal language which is comprehensible to all people in the world.
+				GLYPHICONS were originally designed for mobile applications as icons for tab bars, toolbars and navigation toolbars or as a part of control buttons.
+				The icons may be used immediately, e.g. in iOS on iPhones and iPads as well as in your Android application.
+				24bits PNG data files with transparency are saved and optimized in two basic sizes.</p>
+     							 </div>
+ 			   			</div>
+ 		 			</div>
+				</div> 
+			<p>GLYPHICONS is a library of precisely prepared monochromatic icons and symbols, 
+				created with an emphasis on simplicity and easy orientation.<br>
+				Picture signs (glyphs) have been used in human communication since time immemorial. 
+				Owing to that each picture or sign represents a word, these symbols or pictograms form a universal language which is comprehensible to all people in the world.
+				GLYPHICONS were originally designed for mobile applications as icons for tab bars, toolbars and navigation toolbars or as a part of control buttons.
+				The icons may be used immediately, e.g. in iOS on iPhones and iPads as well as in your Android application.
+				24bits PNG data files with transparency are saved and optimized in two basic sizes. Double sized version of the icons including the correct suffix
+				 @2x in the attribution of data files which are designed for Retina Display.
+			</p>
+			
+        
+
+         		 <h1 id="sec1">Popovers</h1>
+          			<p>Creating Popovers with Twitter Bootstrap
+			Popover is a small overlay of content that is used to display secondary information of any element when it is clicked by a user, 
+			like those on the iPad.
+			Triggering the Popovers
+				Popovers can be triggered via JavaScript — just call the popover() Bootstrap method with the "id" or "class" selector of the required element in your JavaScript code.
+    			</p>
+          		<h1 id="sec2">Button groups</h1>
+        			<p> Creating Buttons with Twitter Bootstrap
+			Buttons are the integral part of an HTML form whether it is a login or a simple contact form.
+			 Buttons are used for various purposes like submit or reset a form or to fire an event to do something on a web page.
+			Different styles for buttons are available in Twitter Bootstrap to indicate different states of a button. 
+			Button styles can be applied to any element. However, it is applied normally to the button elements for the best rendering.
+			</p>
+ 		<h1 id="sec3">Navs</h1>
+     			 <p>    Twitter Bootstrap Nav Components 
+				Twitter Bootstrap provides an easy way to create basic nav components like as tabs and pills. 
+				All the Bootstrap's nav components—tabs and pillss—share the same base markup and styles through the .nav class.
+			</p>
+ 		<h1 id="sec4">Alerts</h1>
+        			<p>  Creating Alert Messages with Twitter Bootstrap
+				Alert messages are used quite often to stand out the information that requires immediate attention of the end users 
+				such as warning or confirmation messages.
+
+			 Warning Alerts
+				You can create a simple warning alert message using the class .alert. 
+				You can also add an optional dismiss button to close the alert message box.</p>
+		<h1 id="sec5">List group</h1>
+      			  <p>  Creating Lists With Twitter Bootstrap
+			You can define the three different types of lists:
+			Unordered lists — A list of items in which the order does not explicitly matter. The list items in unordered lists are marked with bullets.
+			Ordered lists — A list of items in which the order does explicitly matter. The list items in ordered lists are marked with numbers.
+			Definition list — A list of terms with their associated descriptions.</p>
+		<h1 id="sec6">Panels</h1>
+          				<p>Sometimes you might require to put your content in box for certain reason. In such situation the panel component can be very useful. In most basic form the panel component apply some border and padding around the content.
+				Panels with Heading
+					You can also add a heading to your panel with .panel-heading class.
+				Panels with Footer
+					Like heading you can also add footer section to your panels using the .panel-footer class. 
+					The panel's footer can be used to wrap buttons or secondary text.</p>
+		<h1 id="sec7">Progress bars</h1>
+          			<p>Creating Progress Bar with Twitter Bootstrap
+			Progress bars can be used for loading, redirecting, or showing action status to the users. 
+			The following example will show how you can create a simple progress bar with vertical gradient.
+			Creating Stripped Progress Bar
+			To create the stripped progress bar just add an extra class .progress-striped to the .progress base class
+			Creating Stacked Progress Bar
+			You can also place multiple bars into the same progress bar to stack them.</p>
+
+		<h1 id="sec8">ScrollSpy</h1>
+        				<p> You must include Jquery, Twitter Bootstrap CSS and one JavaScript file - bootstrap-scrollspy.js, which is 
+				located under 'js' folder of Twitter Bootstrap's main folder.
+				 If you are using a dropdown menu, then you need to include bootstrap-dropdown.js in the HTML file.
+				Jquery is available under docs >assets > js of your Twitter Bootstrap's main folder as jquery.js;
+				 or you may point to https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js to load Jquery.
+				</p>
+
+		<h1 id="sec9">Modals</h1>
+        		 <p> Twitter Bootstrap Modal are created using a custom Jquery Plugin. It may be used to create modal windows to enrich user experience or to add functionality to users. You may use popover and tooltips within Modals.
+		 to create Modal windows using Twitter Bootstrap with several examples and explanations. Besides defaults, it also discusses various options available for customization.
+		You require Jquery, Twitter Bootstrap CSS and JavaScript file bootstrap-modal.js. The js file is available within js folder of your Twitter Bootstrap Download.
+		Jquery is available under docs > assets > js of your Twitter Bootstrap folder as jquery.js; or you may point to this https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js to load Jquery.
+		Twitter Bootstrap Modal are created using a custom Jquery Plugin. It may be used to create modal windows to enrich user experience or to add functionality to users. You may use popover and tooltips within Modals. 
+		</p>
+        </div><!-- /.col-xs-12 main -->
+    </div><!--/.row-->
+  </div><!--/.container-->
+
+</div><!--/.tab b close-->
+
+          
+
+          <div class="tab-pane" id="lC">
+        <br><br>   Download
+
+Bootstrap has a few easy ways to quickly get started, each one appealing to a different skill level and use case. Read through to see what suits your particular needs.
+
+Bootstrap
+Compiled and minified CSS, JavaScript, and fonts. No docs or original source files are included.<br>
+
+Download Bootstrap
+Source code
+Source Less, JavaScript, and font files, along with our docs. Requires a Less compiler and some setup.<br>
+
+Download source
+Sass
+Bootstrap ported from Less to Sass for easy inclusion in Rails, Compass, or Sass-only projects.<br>
+
+Download Sass
+Currently v3.1.1.<br>
+
+Bootstrap CDN
+The folks over at MaxCDN graciously provide CDN support for Bootstrap's CSS and JavaScript. Just use these Bootstrap CDN links
+<br>
+Before downloading, be sure to have a code editor (we recommend Sublime Text 2) and some working knowledge of HTML and CSS. 
+We won't walk through the source files here, but they are available for download. 
+We'll focus on getting started with the compiled Bootstrap files.<br>
+Bootstrap comes equipped with HTML, CSS, and JS for all sorts of things, but they can be summarized with a handful of categories visible at the top of the Bootstrap documentation.
+<br>
+Docs sections
+Scaffolding
+<br>
+Global styles for the body to reset type and background, link styles, grid system, and two simple layouts.
+<br>
+Base CSS
+
+Styles for common HTML elements like typography, code, tables, forms, and buttons. Also includes Glyphicons, a great little icon set.
+<br>
+Components
+
+Basic styles for common interface components like tabs and pills, navbar, alerts, page headers, and more.
+<br>
+JavaScript plugins
+
+Similar to Components, these JavaScript plugins are interactive components for things like tooltips, popovers, modals, and more.
+<br>
+List of components<br>
+Together, the Components and JavaScript plugins sections provide the following interface elements:
+
+Button groups
+Button dropdowns
+Navigational tabs, pills, and lists
+Navbar
+          </div><!--/.tab c close-->
+
+	        </div>
+	</div>
+     </div>
+</div>
+</body>
+</html>
