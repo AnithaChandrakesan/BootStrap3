@@ -1,0 +1,36 @@
+var jsonObj =
+        {
+            
+            "myObject":
+        [
+                                        {
+					heading:'Employee Performance Analytics',
+					category:'Talent management',
+					content : 'Organizations are struggling hard to retain good talent in this competitive world. But the irony is that the good employee also not willing to leave if they are recognized for what they are doing and well respected for their contribution. One of the main reason for this gap is due to unavailability of tools to understand the employees holistically. Replacement hiring cost may go as much as 3 time cost of their annual compensation, which includes not only compensation but trainings, time to bring the employee on board etc. This cost can be avoided if organizations engage with employees at the right time in a right way. Currently organizations do collect data on their employees from various sources and are not leveraging it to their advantage. With the advent of Big Data technology, organizations can analyse all the data, structured or unstructured, understand their employees holistically. In the current days, all the employees are in one or few social media and talking about their work in some form or other. With Big Data, Organizations can tap these data, of course with permission from employees, and use it for their benefit which includes retaining employees, attracting good talents from employee’s circle of influencers etc.',
+					},
+					{
+					heading:'Recruitment and Selection',
+					category:'Talent management',
+					content:'Every company wants the best talent to work for them. Similarly, candidates are seeking to work in their dream companies. Finding the right combination from this mix is a top priority for the entire recruitment industry today. It’s certain that Big Data is the future of job recruiting and will help companies find the “best-fit” candidates who can contribute to their success. However, merely collecting Big Data from sources like LinkedIn, Facebook, and the Internet is not going to find you the perfect employees',
+					},
+                                         {
+					heading:'Dark Data Exploration',
+					category:'Unveiling Data',
+					content:'Semantic Data exploration use case addresses the key challenges facing enterprises that has large volume of data collected over a period of time and is not utilised to derive actionable insights and gain monetarily. According to Gartner,  information assets organizations collect, process and store during regular business activities, but generally fail to use for other purposes (for example, analytics, business relationships and direct monetizing) is called Dark Data Exploration ',
+					},
+                                        {
+					heading:'Data 360',
+					category:'Unveiling Data',
+					content:'While these methods have been successful over the years, organizations are now experiencing a paradigm shift as they gear up to the challenge of Big Data. Furthermore, in today’s dynamic competitive business environment, it has become increasingly incumbent to have holistic and immersive view of things in order to have a better understanding of individuals/employees/customers.FORMCEPT collates data from internal and external sources and merges them together to get the unified view on all the data by eliminating any discrepancies. It then performs real-time analytics and returns a high-level 360 degree view of the data to all destinations within the organization. Users can ask the system and get desired information up to the minute. Organizations leverage this information to make strategic and tactical decisions in order to maintain a competitive advantage.',
+					},
+					{
+					heading:'Customer 360 Degree View',
+					category:'Unveiling Data',
+					content:'Multiple interaction touch points between the customers and enterprise across channels has resulted in useful data getting distributed in silos rendering it meaningless. There is a lack of uniformity across departments w.r.t. data; the customer service team, the marketing team, the sales team are not able to access customer data in its entirety.',
+					}, {
+					heading:'eCommerce',
+					category:'Retail',
+					content:'In order to maintain an edge over competitors in the eCommerce industry, "engaging content" and the "right product assortment" is amongst top priority for most retailers. FORMCEPT helps you identify and enhance the content quality on your eCommerce portal besides designing the most efficient product assortment. Our Big Data stack captures sentiments of online users and builds a profile around their behaviour, activities, interaction with the internal and outside environment.',
+					}
+        ]
+        }

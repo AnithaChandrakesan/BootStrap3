@@ -1,0 +1,23 @@
+ div {
+            display: block;
+            }
+        .buttons
+        {
+            margin-left: auto;
+            
+        }
+        .btn
+        {
+            width : 170px ;
+            margin-left : 7px;
+            margin-top : 20px;
+        }
+        .sidebar-nav
+        {
+            height: 500px;
+        }
+        .sidebar
+        {
+         height: 500px;
+         background: -moz-linear-gradient(right,lightgray,white); /* For Firefox 3.6 to 15 */
+        }

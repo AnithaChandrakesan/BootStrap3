@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>FORMCEPT-RESOURCES </title>
+
+<link href="3p/bootstrap/css/bootstrap.min.css" rel="stylesheet">    
+<link href="css/style.css" rel="stylesheet">
+<script src="3p/jquery/jquery-2.1.0.min.js"></script>
+<script src="3p/bootstrap/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="json.json"></script>
+<script type="text/javascript" src="js/resouces.js"></script>
+
+
+    
+</head>
+
+<body onload="load()">
+    <div classs="container-fluid">
+        <header>
+            <div class="buttons" data-toggle="buttons">
+              <div align="center">
+               <button type="button" class="btn btn-info"  onclick="one()" ><b>TALENT MANAGEMENT</b></button>
+               <button type="button" class="btn btn-success" onclick="two()" ><b>UNVEILING DATA</b></button>
+               <button type="button" class="btn btn-warning" onclick="three()" ><b>RETAIL</b></button>
+             </div>
+           </div>
+        </header>
+        <div class="row">
+            <!--sidebar-->
+           
+            <div class="col-xs-6 col-sm-3  sidebar-offcanvas" id="sidebar" role="navigation">
+                    <br>
+                        <div class="sidebar"><br>
+                    <!--<div class="well">-->
+                         <div align="center">
+                             <h4>USE CASES</h4><br><hr>
+                         </div>
+                    <!--</div>-->
+                    <div  data-offset-top="45" data-offset-bottom="90">  
+                    <!--<div class="well">--> 
+                        <ul class="nav nav-stacked" id="sidebarr">
+                                
+                                 <div id='list-group-item' style="color: blue ">
+                                 </div><br>
+                               
+                         </ul>
+                    <!--</div>-->
+                    </div>                    
+            </div>
+            </div><!--sidebar end-->
+            <br> 
+                <!--mainarea-->
+            <div class="col-xs-12 col-sm-9">
+                <div id="main" class="well" >
+		    
+		</div>
+                    <div class="col-xs-9 col-sm-7 ">
+                        <div id="content">
+                
+                        </div>
+                    </div>
+		    
+                </div>
+            </div><!--mainarea end-->
+        </div>
+    </div>
+</body>
+</html>
+
